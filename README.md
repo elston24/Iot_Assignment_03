@@ -2,6 +2,7 @@ README.md:
 This repository contains code and scripts for a cloud-based IoT system developed as part of an assignment. The system collects data from virtual sensors, communicates via MQTT protocol, and visualizes data using ThingSpeak. MATLAB scripts are used for data analysis.
 
 Steps followed:
+
 Simulating Virtual Sensors: Employed the Wokwi platform to create a virtual IoT device based on ESP32, featuring simulated sensors for temperature, humidity, and CO2 levels. The main.py script was devised to generate randomized sensor data, subsequently transmitted to a ThingSpeak channel.
 
 Configuration of ThingSpeak: Established a ThingSpeak account and configured a dedicated channel to collect data from the virtual sensors. Integration was established between the channel and the simulated IoT device to facilitate seamless data transmission.
