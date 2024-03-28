@@ -1,4 +1,5 @@
 README.md:
+
 This repository contains code and scripts for a cloud-based IoT system developed as part of an assignment. The system collects data from virtual sensors, communicates via MQTT protocol, and visualizes data using ThingSpeak. MATLAB scripts are used for data analysis.
 
 Steps followed:
@@ -13,4 +14,4 @@ Files:
 1. part_a_main.py : Python script for the virtual sensor simulation and data publication.
 2. diagram.json : Configuration file for the Wokwi simulator setup.
 3. part_b_latest_data.m : Matlab script for retrieving latest sensor data from ThingSpeak.
-4. part_c_5hours_data.m : Matlab script for retrieving sensor data from over the last 5 hours. 
+4. part_c_5hours_data.m : Matlab script for retrieving sensor data from over the last 5 hours.
